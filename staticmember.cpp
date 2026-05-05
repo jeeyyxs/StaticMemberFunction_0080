@@ -20,6 +20,21 @@ public:
         }
 };
 
+//memberi value ke variabel nim dari class mahasiswa
+int Mahasiswa :: nim = 10;
+
+//mengimplementasikan prosedur - prosedur di luar class
+void Mahasiswa :: setIDC) {
+    id = ++nim;
+}
+
+void Mahasiswa :: printALL() {
+
+    cout << "ID : " << id << endl;
+    cout << "Nama : " << nama << endl;
+    cout << endl;
+};
+
 
 
     
