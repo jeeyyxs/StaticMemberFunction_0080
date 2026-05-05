@@ -15,6 +15,6 @@ mahasiswa :: mahasiswa(int nim, string nama) {
 }
 
 int main(){
-    mahsiswa mhs(113, "Rizqi Tukang Makan");
+    mahasiswa mhs(113, "Rizqi Tukang Makan");
     return 0;
 }
