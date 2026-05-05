@@ -24,7 +24,7 @@ public:
 int Mahasiswa :: nim = 10;
 
 //mengimplementasikan prosedur - prosedur di luar class
-void Mahasiswa :: setIDC) {
+void Mahasiswa :: setID() {
     id = ++nim;
 }
 
@@ -34,6 +34,25 @@ void Mahasiswa :: printALL() {
     cout << "Nama : " << nama << endl;
     cout << endl;
 };
+
+int main() {
+    //membuat object dan memberi nilai
+    Mahasiswa mhs1("Lia Kurnia");
+    Mahasiswa mhs2("Fawwaz Sratus");
+    Mahasiswa mhs3("Andi Kurniawan");
+    Mahasiswa mhs4("Bagas Satya Widhi");
+
+    //memanggil prosedur printALL()
+    mhs1.printALL();
+    mhs2.printALL();
+    mhs3.printALL();
+    mhs4.printALL();
+
+    return 0;
+
+}
+
+
 
 
 
