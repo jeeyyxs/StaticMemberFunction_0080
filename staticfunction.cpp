@@ -10,7 +10,7 @@ public:
     int id;
     string nama;
 
-    void setIDC();
+    void setID();
     void printALL();
 
     //pembuatan static function
@@ -18,7 +18,7 @@ public:
         nim = pnim;
     };
 
-    static int getNimC(){
+    static int getNim(){
         return nim;
     }
 
@@ -30,7 +30,7 @@ public:
 int Mahasiswa :: nim = 0;
 
 //pendefinisial prosedur - prosedur diluar class
-void Mahasiswa :: setID() {
+void Mahasiswa::setID() {
     id = ++nim;
 }
 
@@ -45,7 +45,7 @@ int main() {
     Mahasiswa mhs1("Sri Dadi");
     Mahasiswa mhs2("Budi Jatmiko");
     //memberi nilai pada setNim() untuk merubah nilai NIM
-    Mahasiswa :: sstNim(9);
+    Mahasiswa :: setNim(9);
     Mahasiswa mhs3("Andi Janu");
     Mahasiswa mhs4("Joko Wahono");
 
